@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  animation: slideshow 10s infinite;
+  background-size: cover;
+  color: green;
+}
+
+h1, h2, h3, h4, h5, h6, .about {
+  font-family: 'Varela Round', sans-serif;
+  color: green;
+}
+
+@keyframes slideshow {
+    0% { background-image: url('../assets/img1.png'); }
+    33% { background-image: url('../assets/img2.png'); }
+    66% { background-image: url('../assets/img3.png'); }
+    100% { background-image: url('../assets/img1.png'); }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 25%;       
+  max-width: 400px; 
+  min-width: 250px; 
+
+  background: #fff;
+  box-shadow: -4px 0 15px rgba(0,0,0,0.2);
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 280px;   
+  width: 150px;
+}
+
+.img_del {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.logostyle {
+    width: 60vh;
+    height: 60vh;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputs input,
+.inputs textarea {
+    border: 3px solid #ccc; 
+    border-radius: 10px;       
+    padding: 10px;           
+    font-size: 1rem;
+}
+
+.inputs input:focus,
+.inputs textarea:focus,
+.search_bar:focus {
+  border-color: green;    
+  outline: none;           
+  box-shadow: none;  
+}
+
+.body_container {
+    background-color: #F7FFFA;
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+}
+
+.logo2style {
+    width: 45px;
+    height: 40px;
+}
+
+.journal_items {
+  margin-bottom: 5px;
+  border-width: 100px;
+  color: green;
+}
+.words {
+  color: black;
+}
+.item_container {
+  background-color: white;
+  margin-bottom: 7px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.about {
+  max-width: 700px;
+  max-height: 700px;
+  margin: 1rem;
+  margin-top: 7rem;             
+  padding: 3rem;             
+  text-align: center;         
+  background-color: white;   
+  border: 1px solid #dee2e6; 
+  border-radius: 0.375rem;   
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
+}
+
