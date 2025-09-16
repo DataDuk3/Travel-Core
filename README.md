@@ -1,2 +1,24 @@
-# Travel-Core
-A Travel Journal Web app created for CS50
+# Travel Core
+#### Video Demo: https://youtu.be/KbUTjCK4jZ8
+
+#### Description:
+
+Travel Core is a travel journal web application created as the final project for CS50. Its purpose is to provide a digital space for travelers to record, manage, and visualize their journeys. The project brings together multiple modern web technologies—Flask for backend logic, React.js for the frontend, MySQL for data storage, and the Leaflet API for interactive maps. By combining these tools, Travel Core delivers a functional platform that not only supports journaling but also enhances the experience with geolocation features, image uploads, and secure account management.
+
+## Problem It Solves
+The problem Travel Core addresses lies in the limitations of traditional methods of recording travel experiences. Many people rely on physical notebooks, general note-taking apps, or even social media to document their journeys. Physical journals can be meaningful, but they are fragile, difficult to organize, and easily lost. Note-taking apps lack travel-specific structure, while social media emphasizes public sharing rather than private reflection. Travel Core solves this by offering a centralized, private, and structured platform for creating entries specifically dedicated to travel. Unlike traditional journaling tools, it allows travelers to add images to their journals, making their stories richer and more memorable. Its integration with maps further enhances the experience, letting users connect written reflections and photos to real-world locations.
+
+## How It Works
+The application combines user authentication, journal management, persistent storage, image uploads, and mapping integration into a single system. New users can sign up for an account, while returning users log in with their credentials. A forgot password feature is included to ensure accounts remain accessible at all times. Once logged in, users can create journals, revisit past entries, update existing records, or delete those they no longer need. All journals, including attached images, are stored securely in a MySQL database. To make the experience more interactive, the Leaflet API connects entries with specific locations on an interactive map, giving users a spatial perspective on their travels. The system also includes robust error handling, ensuring smooth performance and clear user feedback even when unexpected issues occur.
+
+## Purpose and Learning Goals
+The creation of Travel Core was not only about developing a functional application but also about deepening my understanding of full-stack web development. Working with Flask gave me practical experience in creating routes, building APIs, handling authentication, and ensuring secure server-side logic. Developing the React frontend helped me understand state management, reusable components, and responsive design. Using MySQL allowed me to practice structuring databases, running queries, and maintaining data integrity. Integrating image upload functionality and the Leaflet API taught me how to extend the application beyond simple text entries, while implementing error handling gave me insight into building more reliable and user-friendly systems. The project represents the merging of theory from CS50 with applied development skills, serving as a milestone in my growth as a programmer.
+
+## Improvements Made
+Several refinements were implemented throughout development to enhance usability and reliability. The password recovery system was added to make account management practical, while the image upload feature improved the richness of journal entries by allowing users to visually capture their memories alongside text. The user interface was polished to remain simple and distraction-free, ensuring a smooth journaling process. CRUD operations were tested and optimized to maintain dependable performance, and comprehensive error handling was built into both the frontend and backend to improve stability and give users helpful feedback when things went wrong. These improvements transformed Travel Core from a basic prototype into a more complete and user-oriented application.
+
+## Conclusion
+Travel Core is more than just a final project; it is a representation of my progress as a developer and my ability to design and implement a full-stack web application that solves a real-world problem. It demonstrates proficiency in combining backend and frontend frameworks, working with databases, handling file uploads, and integrating third-party APIs to deliver practical features. By offering travelers a structured, private, and interactive way to preserve their journeys—with text, images, and maps—the application fills a gap left by traditional methods and generic tools. With its strong emphasis on usability, security, and error handling, Travel Core stands as both a meaningful achievement and a strong foundation for future development.
+
+#### Note
+Some files have been deleted due to high file size exceeding allowes size by submit50.
